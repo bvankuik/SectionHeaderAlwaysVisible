@@ -12,6 +12,8 @@
 		8981AE1D1CBB945900DA95BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8981AE1B1CBB945900DA95BA /* Main.storyboard */; };
 		8981AE1F1CBB945900DA95BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8981AE1E1CBB945900DA95BA /* Assets.xcassets */; };
 		8981AE221CBB945900DA95BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8981AE201CBB945900DA95BA /* LaunchScreen.storyboard */; };
+		8981AE2A1CBB965900DA95BA /* MyTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8981AE291CBB965900DA95BA /* MyTableViewHeaderFooterView.swift */; };
+		8981AE2C1CBB9CE200DA95BA /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8981AE2B1CBB9CE200DA95BA /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8981AE1E1CBB945900DA95BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8981AE211CBB945900DA95BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8981AE231CBB945900DA95BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8981AE291CBB965900DA95BA /* MyTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		8981AE2B1CBB9CE200DA95BA /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				8981AE171CBB945900DA95BA /* AppDelegate.swift */,
 				8981AE191CBB945900DA95BA /* ViewController.swift */,
 				8981AE1B1CBB945900DA95BA /* Main.storyboard */,
+				8981AE2B1CBB9CE200DA95BA /* MyTableViewCell.swift */,
+				8981AE291CBB965900DA95BA /* MyTableViewHeaderFooterView.swift */,
 				8981AE1E1CBB945900DA95BA /* Assets.xcassets */,
 				8981AE201CBB945900DA95BA /* LaunchScreen.storyboard */,
 				8981AE231CBB945900DA95BA /* Info.plist */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8981AE2A1CBB965900DA95BA /* MyTableViewHeaderFooterView.swift in Sources */,
+				8981AE2C1CBB9CE200DA95BA /* MyTableViewCell.swift in Sources */,
 				8981AE1A1CBB945900DA95BA /* ViewController.swift in Sources */,
 				8981AE181CBB945900DA95BA /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +296,7 @@
 				8981AE281CBB945900DA95BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
